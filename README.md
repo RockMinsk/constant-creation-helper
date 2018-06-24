@@ -8,7 +8,7 @@ It's necessary just define URL and element locators.
 ## Requirements
 
 * Git
-* NodeJS 10
+* NodeJS 8 (note: on the Node 10 the ERR_INVALID_CALLBACK can be present)
 
 ## Setup
 
