@@ -18,7 +18,7 @@ exports.config = {
     },
     // afterLaunch: function(exitCode) { },
     jasmineNodeOpts: {
-        defaultTimeoutInterval: 100000,
+        defaultTimeoutInterval: 1000000,
         showTiming: true,
         showColors: true,
         isVerbose: true,

@@ -8,7 +8,7 @@ It's necessary just define URL and element locators.
 ## Requirements
 
 * Git
-* NodeJS 8 (6 is also supported)
+* NodeJS 10
 
 ## Setup
 

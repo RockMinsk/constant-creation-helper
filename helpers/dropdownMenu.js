@@ -21,7 +21,9 @@ class BasePage {
 
     createFolder(dirName) {
         this.dirName = dirName || 'constants';
-        return fs.mkdir(`./${this.dirName}`);
+        if (fs.existsSync(`./${this.dirName}`) !== true ) {
+            return fs.mkdir(`./${this.dirName}`);
+        }
     };
 
     createFile_opening(fileName) {
@@ -66,6 +68,7 @@ class Get_All_Option_From_Drop_List extends BasePage {
     };
 
     write_CONSTANT(fileName, dirName) {
+        debugger;
         this.dirName = dirName;
         this.fileName = fileName;
         return this.locatorInsideElements
@@ -83,4 +86,4 @@ class Get_All_Option_From_Drop_List extends BasePage {
     };
 }
 
-module.exports = new Get_All_Option_From_Drop_List();
+module.exports = Get_All_Option_From_Drop_List;

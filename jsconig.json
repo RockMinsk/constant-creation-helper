@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
-        "target": "es6"
+        "target": "es6",
+        "lib": [ "es2017", "dom" ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "experimentalDecorators": true
     },
     "exclude": [
         "node_modules"
@@ -9,7 +13,5 @@
         "jasmine",
         "jasminewd2",
         "node"
-    ],
-    "experimentalDecorators": true,
-    "javascript.implicitProjectConfig.experimentalDecorators": true
+    ]
 }
