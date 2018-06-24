@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "types": [
+        "jasmine",
+        "jasminewd2",
+        "node"
+    ],
+    "experimentalDecorators": true,
+    "javascript.implicitProjectConfig.experimentalDecorators": true
+}
